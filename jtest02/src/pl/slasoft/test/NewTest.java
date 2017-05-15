@@ -6,7 +6,6 @@ public class NewTest {
 		System.out.println("123");
 		System.out.println("i jescze jedna linia!!!");
 		System.out.println("2017/05/15, maj 15");
-		System.out.println("---");
 	}
 
 }
