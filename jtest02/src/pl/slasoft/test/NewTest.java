@@ -6,6 +6,10 @@ public class NewTest {
 		System.out.println("123");
 		System.out.println("i jescze jedna linia!!!");
 		System.out.println("2017/05/17, 17 maja");
+		
+		Person pr = new Person();
+		pr.setName("John Smith");
+		System.out.println(pr.toString());
 	}
 
 }
