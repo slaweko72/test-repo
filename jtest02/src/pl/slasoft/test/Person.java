@@ -2,6 +2,8 @@ package pl.slasoft.test;
 
 public class Person {
 	private String name;
+	private String city;
+	private String country;
 
 	public String getName() {
 		return name;
@@ -11,9 +13,25 @@ public class Person {
 		this.name = name;
 	}
 
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
 	@Override
 	public String toString() {
-		return "Person [name -> " + name + "]";
+		return "Person [name=" + name + ", city=" + city + ", country=" + country + "]";
 	}
 
 }
