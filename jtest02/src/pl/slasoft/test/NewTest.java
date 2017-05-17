@@ -11,6 +11,7 @@ public class NewTest {
 		pr.setName("John Smith");
 		pr.setCity("Warsaw");
 		pr.setCountry("Poland");
+		pr.setAge(25);
 		System.out.println(pr.toString());
 	}
 
