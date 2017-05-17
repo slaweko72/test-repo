@@ -9,7 +9,7 @@ public class NewTest {
 		
 		Person pr = new Person();
 		pr.setName("John Smith");
-		pr.setCity("Warsaw");
+		pr.setCity("Poznan");
 		pr.setCountry("Poland");
 		System.out.println(pr.toString());
 	}
