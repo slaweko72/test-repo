@@ -17,6 +17,9 @@ public class Flower {
 		this.colour = colour;
 	}
 	
+	@Override
+	public String toString() {
+		return "Flower [name=" + name + ", colour=" + colour + "]";
+	}
 	
-
 }
