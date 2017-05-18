@@ -13,6 +13,11 @@ public class NewTest {
 		pr.setCountry("Poland");
 		pr.setAge(25);
 		System.out.println(pr.toString());
+		
+		Country ctr = new Country();
+		ctr.setcName("Germany");
+		ctr.setcCapital("Berlin");
+		System.out.println(ctr);
 	}
 
 }
